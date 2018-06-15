@@ -86,7 +86,7 @@
                     tools.off(privateName, eventName, callback);
                 }
             },
-            // 判断公共事件池中是否已存在该类事件
+            // 判断公共\私有事件池中是否已存在该类事件
             $$exsit: function (eventName, privateName) {
                 if(!privateName){
                     tools.exsit('publicPool', eventName);
